@@ -23,7 +23,6 @@ input{
 
 .login-img{
     width: 50%;
-    background-color: red;
     background-image: url("../images/nt-chilonzor-branch.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -83,3 +82,17 @@ button{
     color: white;
 }
 
+@media(max-width:800px){
+    .login-form{
+        padding: 40px 50px;
+    }
+}
+
+@media(max-width:600px){
+    .login-img{
+        display: none;
+    }
+    .login-form{
+        width: 100%;
+    }
+}
