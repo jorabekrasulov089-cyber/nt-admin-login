@@ -3,7 +3,6 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-    padding-top: 20px;
 }
 
 html{
@@ -83,3 +82,4 @@ button{
     border-radius: 10px;
     color: white;
 }
+
